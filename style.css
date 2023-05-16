@@ -1,0 +1,188 @@
+
+
+body{
+    
+     font-family: 'Lato', sans-serif;;
+}
+
+section{
+    padding: 100px 0;
+}
+
+a{
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+h2,h1{
+    color: #102EB1;
+    font-weight: 700;
+   
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:focus, .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(146, 13, 13, 0.7);
+    text-decoration: underline;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+    width: 70px;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"]{
+    border-color: greenyellow;
+}
+
+.navbar.shadow {
+    box-shadow: 0 0rem 1.5rem #93c47d!important;
+}
+
+.icon-music{
+    color: cadetblue;
+    text-shadow: 0 .1rem .2rem #93c47d;
+    cursor: pointer;
+}
+
+/***************************_HEADER_********************************/
+
+.content-header{
+    background-color: beige;
+}
+
+.content-header h1{
+    padding: .8rem 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgba(97, 123, 240, 0.767);
+}
+
+.carousel-item > img{
+    height: 90vh;
+    background-size: cover;
+}
+
+.video{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.video h1{
+    margin-bottom: 3rem;
+}
+
+video{
+    width: 100%;
+    border: .7rem solid #ffc10752;
+    border-radius: 1rem
+}
+
+.bird-watch{
+    padding-top: 100px;
+    border-bottom: 2px solid green;
+    display: inline-block;
+}
+
+.bird-watch h2{
+    color: brown;
+    margin-bottom: 1rem;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.birds-tips{
+    overflow: hidden;
+}
+
+.birds-tips img{
+    transition: all .7s ease;
+    cursor: pointer;
+    background-size: cover;
+
+}
+
+.birds-tips:hover img {
+    transform: scale(1.1);
+}
+
+.conservation{
+    padding-top: 100px ;
+    border-bottom: 2px solid green;
+    display: inline-block;
+}
+
+.conservation h1{
+    padding-bottom: 1rem;
+}
+
+.img-box{
+    padding-bottom: 100px;
+}
+
+
+/****************conservationImage*********************/
+
+.image-box{
+    overflow: hidden;
+}
+
+.image-box img{
+    transition: all .7s ease;
+    cursor: pointer;
+    width: 100%;
+    height: 40vh;
+    margin: 0 2rem;
+}
+
+.image-box:hover img{
+    transform: scale(1.1);
+}
+
+/*************************_FOOTER_********************************/
+
+footer{
+    background-color:#19875429;
+    padding-bottom: 3rem;
+}
+
+.customere{
+    padding-top: 5rem;
+}
+
+.bordre{
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.span a, p a {
+    text-decoration: none;
+    color: #0000006b;
+}
+
+
+.image-footer{
+    width: 50px;
+    opacity: .6;
+}
+
+.span-color{
+    color: black;
+}
+
+.fa-facebook:hover,.fa-square-instagram:hover{
+    color: blue;
+}
+
