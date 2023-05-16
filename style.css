@@ -1,24 +1,16 @@
 
 
 body{
-    
-     font-family: 'Lato', sans-serif;;
+     font-family: 'Lato', sans-serif;
+     letter-spacing: 1px;
 }
 
-section{
-    padding: 100px 0;
-}
 
 a{
     text-decoration: none;
     transition: all .4s ease;
 }
 
-h2,h1{
-    color: #102EB1;
-    font-weight: 700;
-   
-}
 
 .navbar-collapse .navbar-nav .nav-item .nav-link:focus, .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
     color: rgba(146, 13, 13, 0.7);
@@ -46,6 +38,8 @@ h2,h1{
 
 .navbar.shadow {
     box-shadow: 0 0rem 1.5rem #93c47d!important;
+    padding: 0.5rem !important;
+    margin-bottom: 0.6rem !important;
 }
 
 .icon-music{
@@ -53,6 +47,7 @@ h2,h1{
     text-shadow: 0 .1rem .2rem #93c47d;
     cursor: pointer;
 }
+
 
 /***************************_HEADER_********************************/
 
@@ -65,6 +60,8 @@ h2,h1{
     margin-bottom: 0;
     text-align: center;
     color: rgba(97, 123, 240, 0.767);
+    font-size: 2.2rem;
+    letter-spacing: 1px;
 }
 
 .carousel-item > img{
@@ -73,12 +70,13 @@ h2,h1{
 }
 
 .video{
-    padding: 100px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 .video h1{
     margin-bottom: 3rem;
+    color: #102EB1;
 }
 
 video{
@@ -126,6 +124,7 @@ video{
 
 .conservation h1{
     padding-bottom: 1rem;
+    color: #102EB1;
 }
 
 .img-box{
@@ -149,6 +148,11 @@ video{
 
 .image-box:hover img{
     transform: scale(1.1);
+}
+
+.card-text{
+    letter-spacing: 1px;
+    line-height: 2rem;
 }
 
 /*************************_FOOTER_********************************/
