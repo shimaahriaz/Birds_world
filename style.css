@@ -37,7 +37,7 @@ a{
 }
 
 .navbar.shadow {
-    box-shadow: 0 0rem 1.5rem #93c47d!important;
+    box-shadow: 0 0rem .6rem #93c47d!important;
     padding: 0.5rem !important;
     margin-bottom: 0.6rem !important;
 }
